@@ -52,88 +52,87 @@ Formulir pendaftaran pengguna baru.
 
 ### Tampilan Hak Akses Admin
 
-**1. Dashboard Utama Admin**
+**1. Dashboard Utama Admin (Light Mode)**
 Ringkasan statistik stok dan grafik transaksi (Masuk vs Keluar) selama 6 bulan terakhir.
-![Admin 1](public/assets/Tampilan%20Admin1.png)
+![Admin 1](public/assets/Tampilan%20Admin1dashboard%20light.png)
 
-**2. Master Data - Kategori Barang**
+**2. Kategori Barang (Light Mode)**
 Daftar seluruh kategori barang yang ada di gudang.
-![Admin 2](public/assets/Tampilan%20Admin2.png)
+![Admin 2](public/assets/Tampilan%20Admin2kategori%20barang%20light.png)
 
-**3. Form Tambah Kategori**
+**3. Tambah Kategori Barang (Light Mode)**
 Antarmuka penambahan data kategori baru.
-![Admin 3](public/assets/Tampilan%20Admin3.png)
+![Admin 3](public/assets/Tampilan%20Admin3tambah%20kategori%20barang%20light.png)
 
-**4. Master Data - Satuan**
+**4. CRUD Satuan Barang**
 Manajemen satuan barang (misal: pcs, lusin, rim).
-![Admin 4](public/assets/Tampilan%20Admin4.png)
+![Admin 4](public/assets/Tampilan%20Admin4satuan%20crud.png)
 
-**5. Master Data - Supplier**
+**5. CRUD Supplier**
 Daftar pihak penyuplai barang beserta kontak informasinya.
-![Admin 5](public/assets/Tampilan%20Admin5.png)
+![Admin 5](public/assets/Tampilan%20Admin5supplier%20crud.png)
 
-**6. Master Data - Barang**
-Daftar inventaris utama yang menampilkan sisa stok, status stok kritis (merah), dan fitur pencarian.
-![Admin 6](public/assets/Tampilan%20Admin6.png)
+**6. Form Tambah Supplier**
+Antarmuka pendaftaran entitas supplier baru.
+![Admin 6](public/assets/Tampilan%20Admin6form%20tambah%20supplier.png)
 
-**7. Detail Barang & Galeri Gambar**
-Tampilan informasi detail barang yang dilengkapi dengan kotak "Galeri Gambar" (*multiple uploads*).
-![Admin 7](public/assets/Tampilan%20Admin7.png)
+**7. CRUD Master Barang**
+Daftar inventaris utama yang menampilkan sisa stok, status stok kritis (merah), dan pencarian.
+![Admin 7](public/assets/Tampilan%20Admin7barang%20crud.png)
 
-**8. Form Tambah / Edit Barang**
-Antarmuka manajemen data barang dengan dropdown relasi satuan, kategori, dan multi-select supplier.
-![Admin 8](public/assets/Tampilan%20Admin8.png)
-
-**9. Transaksi - Barang Masuk**
-Daftar riwayat barang yang telah masuk ke gudang.
-![Admin 9](public/assets/Tampilan%20Admin9.png)
-
-**10. Form Barang Masuk**
+**8. Form Barang Masuk**
 Pencatatan barang yang masuk dari supplier untuk menambah total stok.
-![Admin 10](public/assets/Tampilan%20Admin10.png)
+![Admin 8](public/assets/Tampilan%20Admin8form%20barang%20masuk.png)
 
-**11. Transaksi - Barang Keluar**
+**9. CRUD Barang Keluar**
 Daftar riwayat sirkulasi keluarnya barang dari gudang.
-![Admin 11](public/assets/Tampilan%20Admin11.png)
+![Admin 9](public/assets/Tampilan%20Admin9crud%20barang%20keluar.png)
 
-**12. Form Barang Keluar**
-Pencatatan pengeluaran barang dengan validasi sistem yang mencegah pengeluaran melebihi batas stok.
-![Admin 12](public/assets/Tampilan%20Admin12.png)
+**10. Export Data Laporan**
+Modul untuk mengunduh laporan ke dalam format PDF dan Excel (.xlsx).
+![Admin 10](public/assets/Tampilan%20Admin10export%20data%20laporan.png)
 
-**13. Sistem Laporan (Export Data)**
-Modul untuk mengunduh laporan sisa stok akhir ke dalam format PDF dan Excel (.xlsx).
-![Admin 13](public/assets/Tampilan%20Admin13.png)
+**11. Log Activity**
+Riwayat log keamanan yang mencatat setiap aktivitas terhadap data (Audit Trail).
+![Admin 12](public/assets/Tampilan%20Admin12log%20activity.png)
 
-**14. Activity Log (Audit Trail)**
-Riwayat log keamanan yang mencatat siapa melakukan aksi apa terhadap master data dan transaksi.
-![Admin 14](public/assets/Tampilan%20Admin14.png)
+**12. Form Tambah Barang (Multi-upload)**
+Antarmuka penambahan barang dengan fitur unggah banyak gambar sekaligus.
+![Admin 13](public/assets/Tampilan%20Admin13form%20tambah%20barang.png)
 
+**13. Detail Barang & Galeri**
+Tampilan informasi barang beserta galeri fotonya.
+![Admin 14](public/assets/Tampilan%20Admin14detail%20barang.png)
 
 ### Tampilan Hak Akses Petugas
 
-**1. Dashboard Petugas**
-Menampilkan informasi statistik ringkas. Menu *Sidebar* pada petugas lebih sedikit karena dibatasi dari Master Data.
-![Petugas 1](public/assets/Tampilan%20Petugas1.png)
+**1. Dashboard Petugas (Light Mode)**
+Menampilkan informasi statistik ringkas dengan sidebar yang disesuaikan untuk peran Petugas.
+![Petugas 1](public/assets/Tampilan%20Petugas1dashboard%20light.png)
 
-**2. Daftar Barang Masuk (Akses Petugas)**
-Petugas dapat melihat dan mencatat riwayat barang masuk.
-![Petugas 2](public/assets/Tampilan%20Petugas2.png)
+**2. Dashboard Petugas (Dark Mode)**
+Tampilan antarmuka Dashboard dalam mode gelap.
+![Petugas 2](public/assets/Tampilan%20Petugas2dashboard%20dark.png)
 
-**3. Form Barang Masuk**
-![Petugas 3](public/assets/Tampilan%20Petugas3.png)
+**3. Barang Masuk (Light Mode)**
+Daftar riwayat pencatatan barang masuk oleh petugas.
+![Petugas 3](public/assets/Tampilan%20Petugas3%20barang%20masuk%20light.png)
 
-**4. Detail Transaksi Barang Masuk**
-![Petugas 4](public/assets/Tampilan%20Petugas4.png)
+**4. Barang Keluar (Light Mode)**
+Daftar riwayat pengeluaran barang.
+![Petugas 4](public/assets/Tampilan%20Petugas4barang%20keluar%20light.png)
 
-**5. Daftar Barang Keluar (Akses Petugas)**
-Petugas mengelola proses pengeluaran barang untuk kebutuhan operasional.
-![Petugas 5](public/assets/Tampilan%20Petugas5.png)
+**5. Detail Barang Keluar (Light Mode)**
+Informasi rinci terkait transaksi pengeluaran barang.
+![Petugas 5](public/assets/Tampilan%20Petugas5%20detail%20barang%20keluar%20light.png)
 
-**6. Form Barang Keluar**
-![Petugas 6](public/assets/Tampilan%20Petugas6.png)
+**6. Barang Masuk (Dark Mode)**
+Tampilan riwayat pencatatan barang masuk dalam mode gelap.
+![Petugas 6](public/assets/Tampilan%20Petugas6barang%20masuk%20dark.png)
 
-**7. Detail Transaksi Barang Keluar**
-![Petugas 7](public/assets/Tampilan%20Petugas7.png)
+**7. Barang Keluar (Dark Mode)**
+Tampilan riwayat pengeluaran barang dalam mode gelap.
+![Petugas 7](public/assets/Tampilan%20Petugas7%20barang%20keluar%20dark.png)
 
 ---
 
