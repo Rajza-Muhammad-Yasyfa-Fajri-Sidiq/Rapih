@@ -52,30 +52,38 @@ Berikut adalah dokumentasi antarmuka dari aplikasi Rapih Inventory:
 </details>
 
 <details>
-<summary><b>Klik untuk melihat Tampilan Admin</b></summary>
+<summary><b>Klik untuk melihat Tampilan Admin Lengkap (14 Gambar)</b></summary>
 <br>
 
-**Dashboard Admin**
+**Dashboard & Fitur Admin**
 ![Admin 1](public/assets/Tampilan%20Admin1.png)
-
-**Manajemen Data & Master Data**
 ![Admin 2](public/assets/Tampilan%20Admin2.png)
+![Admin 3](public/assets/Tampilan%20Admin3.png)
+![Admin 4](public/assets/Tampilan%20Admin4.png)
 ![Admin 5](public/assets/Tampilan%20Admin5.png)
-
-*(Catatan: Terdapat total 14 tangkapan layar untuk fitur Admin di folder `public/assets/`, mencakup kelengkapan Manajemen Barang, Supplier, Log Aktivitas, Laporan Excel/PDF, dll).*
+![Admin 6](public/assets/Tampilan%20Admin6.png)
+![Admin 7](public/assets/Tampilan%20Admin7.png)
+![Admin 8](public/assets/Tampilan%20Admin8.png)
+![Admin 9](public/assets/Tampilan%20Admin9.png)
+![Admin 10](public/assets/Tampilan%20Admin10.png)
+![Admin 11](public/assets/Tampilan%20Admin11.png)
+![Admin 12](public/assets/Tampilan%20Admin12.png)
+![Admin 13](public/assets/Tampilan%20Admin13.png)
+![Admin 14](public/assets/Tampilan%20Admin14.png)
 </details>
 
 <details>
-<summary><b>Klik untuk melihat Tampilan Petugas</b></summary>
+<summary><b>Klik untuk melihat Tampilan Petugas Lengkap (7 Gambar)</b></summary>
 <br>
 
-**Dashboard Petugas**
+**Dashboard & Transaksi Petugas**
 ![Petugas 1](public/assets/Tampilan%20Petugas1.png)
-
-**Transaksi Barang**
 ![Petugas 2](public/assets/Tampilan%20Petugas2.png)
-
-*(Catatan: Terdapat total 7 tangkapan layar untuk fitur Petugas di folder `public/assets/`, difokuskan pada pengelolaan sirkulasi Barang Masuk dan Keluar).*
+![Petugas 3](public/assets/Tampilan%20Petugas3.png)
+![Petugas 4](public/assets/Tampilan%20Petugas4.png)
+![Petugas 5](public/assets/Tampilan%20Petugas5.png)
+![Petugas 6](public/assets/Tampilan%20Petugas6.png)
+![Petugas 7](public/assets/Tampilan%20Petugas7.png)
 </details>
 
 ---
