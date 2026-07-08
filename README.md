@@ -319,4 +319,13 @@ Selain tabel di atas, terdapat tabel bawaan Laravel dan package:
 
 ---
 
-> *Dikembangkan untuk memenuhi spesifikasi sistem inventaris tingkat menengah. Built with ❤️ utilizing Laravel.*
+## 👨‍🎓 Identitas Mahasiswa
+
+- **Nama:** Rajza Muhammad Yasyfa Fajri Sidiq
+- **NPM:** 23552011039
+- **Mata Kuliah:** Pemrograman Web 2 (UAS)
+- **Kelas:** TIF RP-23 CNS A
+
+---
+
+> *Dikembangkan untuk memenuhi tugas UAS Pemrograman Web 2. Built with ❤️ utilizing Laravel.*
