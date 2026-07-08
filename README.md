@@ -40,51 +40,100 @@ Aplikasi ini mencakup semua kebutuhan dasar hingga menengah untuk pengelolaan gu
 
 Berikut adalah dokumentasi antarmuka dari aplikasi Rapih Inventory:
 
-<details>
-<summary><b>Klik untuk melihat Halaman Autentikasi</b></summary>
-<br>
+### Halaman Autentikasi
 
-**Halaman Login**
+**1. Halaman Login**
+Menampilkan antarmuka masuk untuk Admin maupun Petugas dengan desain *split-screen* modern.
 ![Login](public/assets/Tampilan%20login.png)
 
-**Halaman Register**
+**2. Halaman Register**
+Formulir pendaftaran pengguna baru.
 ![Register](public/assets/Tampilan%20register.png)
-</details>
 
-<details>
-<summary><b>Klik untuk melihat Tampilan Admin Lengkap (14 Gambar)</b></summary>
-<br>
+### Tampilan Hak Akses Admin
 
-**Dashboard & Fitur Admin**
+**1. Dashboard Utama Admin**
+Ringkasan statistik stok dan grafik transaksi (Masuk vs Keluar) selama 6 bulan terakhir.
 ![Admin 1](public/assets/Tampilan%20Admin1.png)
+
+**2. Master Data - Kategori Barang**
+Daftar seluruh kategori barang yang ada di gudang.
 ![Admin 2](public/assets/Tampilan%20Admin2.png)
+
+**3. Form Tambah Kategori**
+Antarmuka penambahan data kategori baru.
 ![Admin 3](public/assets/Tampilan%20Admin3.png)
+
+**4. Master Data - Satuan**
+Manajemen satuan barang (misal: pcs, lusin, rim).
 ![Admin 4](public/assets/Tampilan%20Admin4.png)
+
+**5. Master Data - Supplier**
+Daftar pihak penyuplai barang beserta kontak informasinya.
 ![Admin 5](public/assets/Tampilan%20Admin5.png)
+
+**6. Master Data - Barang**
+Daftar inventaris utama yang menampilkan sisa stok, status stok kritis (merah), dan fitur pencarian.
 ![Admin 6](public/assets/Tampilan%20Admin6.png)
+
+**7. Detail Barang & Galeri Gambar**
+Tampilan informasi detail barang yang dilengkapi dengan kotak "Galeri Gambar" (*multiple uploads*).
 ![Admin 7](public/assets/Tampilan%20Admin7.png)
+
+**8. Form Tambah / Edit Barang**
+Antarmuka manajemen data barang dengan dropdown relasi satuan, kategori, dan multi-select supplier.
 ![Admin 8](public/assets/Tampilan%20Admin8.png)
+
+**9. Transaksi - Barang Masuk**
+Daftar riwayat barang yang telah masuk ke gudang.
 ![Admin 9](public/assets/Tampilan%20Admin9.png)
+
+**10. Form Barang Masuk**
+Pencatatan barang yang masuk dari supplier untuk menambah total stok.
 ![Admin 10](public/assets/Tampilan%20Admin10.png)
+
+**11. Transaksi - Barang Keluar**
+Daftar riwayat sirkulasi keluarnya barang dari gudang.
 ![Admin 11](public/assets/Tampilan%20Admin11.png)
+
+**12. Form Barang Keluar**
+Pencatatan pengeluaran barang dengan validasi sistem yang mencegah pengeluaran melebihi batas stok.
 ![Admin 12](public/assets/Tampilan%20Admin12.png)
+
+**13. Sistem Laporan (Export Data)**
+Modul untuk mengunduh laporan sisa stok akhir ke dalam format PDF dan Excel (.xlsx).
 ![Admin 13](public/assets/Tampilan%20Admin13.png)
+
+**14. Activity Log (Audit Trail)**
+Riwayat log keamanan yang mencatat siapa melakukan aksi apa terhadap master data dan transaksi.
 ![Admin 14](public/assets/Tampilan%20Admin14.png)
-</details>
 
-<details>
-<summary><b>Klik untuk melihat Tampilan Petugas Lengkap (7 Gambar)</b></summary>
-<br>
 
-**Dashboard & Transaksi Petugas**
+### Tampilan Hak Akses Petugas
+
+**1. Dashboard Petugas**
+Menampilkan informasi statistik ringkas. Menu *Sidebar* pada petugas lebih sedikit karena dibatasi dari Master Data.
 ![Petugas 1](public/assets/Tampilan%20Petugas1.png)
+
+**2. Daftar Barang Masuk (Akses Petugas)**
+Petugas dapat melihat dan mencatat riwayat barang masuk.
 ![Petugas 2](public/assets/Tampilan%20Petugas2.png)
+
+**3. Form Barang Masuk**
 ![Petugas 3](public/assets/Tampilan%20Petugas3.png)
+
+**4. Detail Transaksi Barang Masuk**
 ![Petugas 4](public/assets/Tampilan%20Petugas4.png)
+
+**5. Daftar Barang Keluar (Akses Petugas)**
+Petugas mengelola proses pengeluaran barang untuk kebutuhan operasional.
 ![Petugas 5](public/assets/Tampilan%20Petugas5.png)
+
+**6. Form Barang Keluar**
 ![Petugas 6](public/assets/Tampilan%20Petugas6.png)
+
+**7. Detail Transaksi Barang Keluar**
 ![Petugas 7](public/assets/Tampilan%20Petugas7.png)
-</details>
 
 ---
 
