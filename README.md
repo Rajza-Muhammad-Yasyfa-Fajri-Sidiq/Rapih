@@ -36,6 +36,50 @@ Aplikasi ini mencakup semua kebutuhan dasar hingga menengah untuk pengelolaan gu
 
 ---
 
+## 📸 Cuplikan Aplikasi (Screenshots)
+
+Berikut adalah dokumentasi antarmuka dari aplikasi Rapih Inventory:
+
+<details>
+<summary><b>Klik untuk melihat Halaman Autentikasi</b></summary>
+<br>
+
+**Halaman Login**
+![Login](public/assets/Tampilan%20login.png)
+
+**Halaman Register**
+![Register](public/assets/Tampilan%20register.png)
+</details>
+
+<details>
+<summary><b>Klik untuk melihat Tampilan Admin</b></summary>
+<br>
+
+**Dashboard Admin**
+![Admin 1](public/assets/Tampilan%20Admin1.png)
+
+**Manajemen Data & Master Data**
+![Admin 2](public/assets/Tampilan%20Admin2.png)
+![Admin 5](public/assets/Tampilan%20Admin5.png)
+
+*(Catatan: Terdapat total 14 tangkapan layar untuk fitur Admin di folder `public/assets/`, mencakup kelengkapan Manajemen Barang, Supplier, Log Aktivitas, Laporan Excel/PDF, dll).*
+</details>
+
+<details>
+<summary><b>Klik untuk melihat Tampilan Petugas</b></summary>
+<br>
+
+**Dashboard Petugas**
+![Petugas 1](public/assets/Tampilan%20Petugas1.png)
+
+**Transaksi Barang**
+![Petugas 2](public/assets/Tampilan%20Petugas2.png)
+
+*(Catatan: Terdapat total 7 tangkapan layar untuk fitur Petugas di folder `public/assets/`, difokuskan pada pengelolaan sirkulasi Barang Masuk dan Keluar).*
+</details>
+
+---
+
 ## 🛠 Teknologi yang Digunakan
 
 - **Backend:** Laravel 12 (PHP 8.5)
